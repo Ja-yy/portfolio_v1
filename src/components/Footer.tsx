@@ -3,9 +3,9 @@ import { Linkedin, X, ArrowRight } from 'lucide-react';
 
 export const Footer = () => {
   return (
-    <footer className="bg-black lg:pt-[7.5em] pt-[3em]">
+    <footer className="bg-gradient-to-b from-imperial-900 via-imperial-800 to-imperial-700 lg:pt-[7.5em] pt-[3em] pb-0">
       <div className="px-[1em] lg:px-6">
-        <div className="bg-imperial-800 xl:rounded-t-[100px] lg:rounded-t-[90px] rounded-t-[30px] relative overflow-hidden">
+        <div className="bg-gradient-to-br from-imperial-700 via-imperial-800 to-slate-800 xl:rounded-t-[100px] lg:rounded-t-[90px] rounded-t-[30px] relative overflow-hidden">
           <div className="grid xl:grid-cols-4 grid-cols-1 xl:pt-16 xl:px-16 lg:pt-12 lg:px-12 pt-6 px-6">
 
             {/* First Column - Main heading */}
@@ -27,32 +27,13 @@ export const Footer = () => {
                   <a href="#" className="flex items-center text-gray-300 gap-4 font-semibold group cursor-pointer text-[20px] leading-[36.41px] transition-all duration-500 hover:text-white">
                     Say Hello
                     <div className="relative p-[3px] inline-block rounded-full group-hover:bg-gradient-to-r transition-all duration-300 ease-in-out from-blue-400 via-pink-500 to-rose-400">
-                      <div className="p-2 bg-imperial-800 rounded-full w-full h-full group-hover:rotate-45 transition-all duration-500 ease-in-out">
+                      <div className="p-2 bg-imperial-700 rounded-full w-full h-full group-hover:rotate-45 transition-all duration-500 ease-in-out">
                         <ArrowRight className="text-white" size={16} />
                       </div>
                     </div>
                   </a>
                 </div>
-                <div className="flex flex-wrap gap-3">
-                  <a href="#" className="flex items-center text-gray-300 gap-4 font-semibold group cursor-pointer text-[20px] leading-[36.41px] transition-all duration-500 hover:text-white">
-                    Schedule a Call
-                    <div className="relative p-[3px] inline-block rounded-full group-hover:bg-gradient-to-r transition-all duration-300 ease-in-out from-blue-400 via-pink-500 to-rose-400">
-                      <div className="p-2 bg-imperial-800 rounded-full w-full h-full group-hover:rotate-45 transition-all duration-500 ease-in-out">
-                        <ArrowRight className="text-white" size={16} />
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div className="flex flex-wrap gap-3">
-                  <a href="#" className="flex items-center text-gray-300 gap-4 font-semibold group cursor-pointer text-[20px] leading-[36.41px] transition-all duration-500 hover:text-white">
-                    Request a Free PoC
-                    <div className="relative p-[3px] inline-block rounded-full group-hover:bg-gradient-to-r transition-all duration-300 ease-in-out from-blue-400 via-pink-500 to-rose-400">
-                      <div className="p-2 bg-imperial-800 rounded-full w-full h-full group-hover:rotate-45 transition-all duration-500 ease-in-out">
-                        <ArrowRight className="text-white" size={16} />
-                      </div>
-                    </div>
-                  </a>
-                </div>
+
               </div>
             </div>
 
@@ -86,7 +67,7 @@ export const Footer = () => {
           </div>
 
           {/* Giant JAYYLAB SVG as image replacement */}
-          <div className="w-full mb-[-1%] flex items-center justify-center py-8 overflow-hidden">
+          <div className="w-full flex items-center justify-center py-8 overflow-hidden bg-gradient-to-t from-imperial-700 to-transparent">
             <img
               src="/src/assets/JAYYLAB.svg"
               alt="JAYYLAB"
